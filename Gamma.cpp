@@ -24,10 +24,18 @@ int main ()
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;	
 	printBar();
-	bool isTodayFriday;
-	isTodayFriday= true;
-	if(isTodayFriday)
-	cout<<"Bhai Nahana Parey gaa";
+	bool doYouAgree;
+	char opt;
+	doYouAgree= true;
+	cout<<"Pak Turk Friendship is ever-lasting (type y for yes and n for no): ";
+	cin>>opt;
+	if(opt=='y')
+	doYouAgree=true;
 	else
-	cout<<"Khaire hi hia Cheetey";
+	doYouAgree=false;
+	
+	if(doYouAgree)
+	cout<<"Bhai Nahana Parey gaa"<<endl;
+	else
+	cout<<"Khaire hi hia Cheetey"<<endl;
 }
