@@ -25,6 +25,7 @@ int main ()
 		cout<<"I love Pakistan."<<endl;
 		cout<<endl;	
 	printBar();
+	cout<<endl;
 	bool doYouAgree;
 	char opt;
 	doYouAgree= true;
