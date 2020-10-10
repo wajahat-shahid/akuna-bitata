@@ -22,7 +22,8 @@ int main ()
 {
 	printBar();
 	for (int i=0;i<5;i++)
-		cout<<"I love Pakistan."<<endl;	
+		cout<<"I love Pakistan."<<endl;
+		cout<<endl;	
 	printBar();
 	bool doYouAgree;
 	char opt;
