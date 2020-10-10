@@ -37,7 +37,7 @@ int main ()
 	doYouAgree=false;
 	
 	if(doYouAgree)
-	cout<<"Bhai Nahana Parey gaa"<<endl;
+	cout<<"EyWaAllah Kardish"<<endl;
 	else
-	cout<<"Khaire hi hia Cheetey"<<endl;
+	cout<<"Kopekler"<<endl;
 }
